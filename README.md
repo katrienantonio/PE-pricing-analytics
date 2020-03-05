@@ -23,6 +23,12 @@ suppressMessages(packages <- lapply(packages, FUN = function(x) {
   }
 }))
 ```
+If you do not manage the install and use the packages on your local machine, then please join our project on RStudio Cloud via the following link
+
+[https://rstudio.cloud/spaces/55584/join?access_code=hnHmPmSNsbu8BdEBJkeMXNPtHBelpnnJBAmF9XTH](https://rstudio.cloud/spaces/55584/join?access_code=hnHmPmSNsbu8BdEBJkeMXNPtHBelpnnJBAmF9XTH)
+
+After creating an account for RStudio you will be able to work with the scripts and data sets in the cloud. 
+
 
 ## Lecture sheets
 

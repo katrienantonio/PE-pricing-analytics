@@ -61,10 +61,6 @@ library(ggplot2)
 ggplot(data = mpg)
 ggplot(mpg)
 
-## -----------------------------------------------------------------------------------
-library(ggplot2)
-ggplot(mpg, `aes(displ, hwy, colour = class)`) +
-  `geom_point()` + `theme_bw()`
 
 ## -----------------------------------------------------------------------------------
 library(ggplot2)
