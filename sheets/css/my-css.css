@@ -1,0 +1,154 @@
+/* Create a highlighted class called 'hi'  */
+.hi {
+  font-weight: 600;
+  color: #e64173 !important;
+}
+.hi-pink {
+  font-weight: 600;
+  color: #e64173 !important;
+}
+.hi-KUL {
+  font-weight: 600;
+  color: #116E8A !important;
+}
+.hi-slate {
+  font-weight: 600;
+  color: #314f4f !important;
+}
+.hi-turquoise {
+  font-weight: 600;
+  color: #44C1C4 !important;
+}
+.hi-purple {
+  font-weight: 600;
+  color: #6A5ACD !important;
+}
+.hi-orange {
+  font-weight: 600;
+  color: #FFA500 !important;
+}
+.hi-yellow{
+  font-weight: 600;
+  color: #D8BD44 !important;
+}
+.hi-green {
+  font-weight: 600;
+  color: #7CAE96 !important;
+}
+.hi-grey {
+  font-weight: 600;
+  color: #8AA19E !important;
+}
+.hi-blue {
+  font-weight: 600;
+  color: #3b3b9a !important;
+}
+.hi-red {
+  font-weight: 600;
+  color: #fb6107 !important;
+}
+/* Pink text */
+.pink {
+  color: #e64173 !important;
+}
+/* Slate ("darkslategrey") text */
+.slate {
+  color: #314f4f !important;
+}
+/* Turquoise ("lightseagreen") text */
+.turquoise {
+  color: #44C1C4 !important;
+}
+/* Purple-ish ("slateblue") text */
+.purple {
+  color: #6A5ACD !important;
+}
+/* Orange ("orange") text */
+.orange {
+  color: #FFA500;
+}
+.yellow{
+  color: #D8BD44;
+}
+.green {
+  color: #7CAE96;
+}
+.grey {
+  color: #8AA19E;
+}
+.blue {
+  color: #3b3b9a;
+}
+.red {
+  color: #fb6107;
+}
+
+/* Grey text */
+.grey-mid {
+  color: #7f7f7f !important;
+}
+.grey-light {
+  color: #d2d2d2 !important;
+}
+.grey-vlight {
+  color: #e5e5e5 !important;
+}
+/* White text */
+.white {
+  color: #ffffff !important;
+}
+.black {
+  color: #000000 !important;
+}
+.font1000.bold {
+  font-size: 1000%;
+  font-weight: bold;
+}
+
+
+:root {
+  --color-salt: #61acf0; /* blue */
+  --color-fat: #f0a561; /* orange */
+  --color-acid: #cbd20a; /* lime */
+  --color-heat: #e74a2f; /* red */
+  --color-black: #1a1917; /* black */
+  --color-KULbg: #116E8A; /* KU Leuven kleur gebruikt in header */
+}
+
+
+KULbg {
+  color: var(--color-KULbg);
+  font-size: 200%; 
+  font-weight:700;
+}
+
+.KULbginline {
+  color: var(--color-KULbg);
+  font-size: 120%;
+  font-weight:400;
+}
+
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+thead, tfoot, tr:nth-child(even) { background: #eee }
+
+.pull-left-alt {
+  float: left;
+  width: 37%;
+}
+
+.pull-right-alt {
+  float: right;
+  width: 57%;
+}
+
+.title-hex{
+  height: 60px;
+  align: middle;
+  float: right;
+}
