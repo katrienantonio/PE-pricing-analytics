@@ -26,9 +26,9 @@ suppressMessages(packages <- lapply(packages, FUN = function(x) {
 
 ## Lecture sheets
 
-You can access the lecture sheets via [https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html](pricing-analytics-sheets).
+You can access the lecture sheets via [pricing-analytics-sheets](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html).
 
-An older documentation of the same workshop is [https://katrienantonio.github.io/PE-pricing-analytics/background/2019_04_APC_Pricing_analytics_in_R.html](here).
+An older documentation of the same workshop is [here](https://katrienantonio.github.io/PE-pricing-analytics/background/2019_04_APC_Pricing_analytics_in_R.html).
 
 The material is (always) under construction!
 
