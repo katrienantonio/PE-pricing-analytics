@@ -12,7 +12,7 @@ insurance company, the policyholder and the regulator. The approach combines too
 
 ## Set-up
 
-You should nstall and load the packages that will be used throughout the workshop. You can use the following instructions to install (if necessary) and load the packages. 
+You should nstall and load the packages that will be used throughout the workshop. You can use the following instructions to install (if necessary) and load the packages. These instructions are also available in `prework_installation_packages.R` from the `scripts` folder.
 
 ```{r, eval=TRUE}
 packages <- c("tidyverse", "mgcv", "evtree", "classInt", "rgdal", "RColorBrewer", "grid", "gridExtra", "visreg", "sf", "tmap", "rgeos", "mapview", "leaflet")
@@ -32,11 +32,10 @@ After creating an account for RStudio you will be able to work with the scripts 
 
 ## Lecture sheets
 
-You can access the lecture sheets via [pricing-analytics-sheets](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html).
+You can access the lecture sheets via [pricing-analytics-sheets](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html). These are under construction and will be updated!
 
 An older documentation of the same workshop is [here](https://katrienantonio.github.io/PE-pricing-analytics/background/2019_04_APC_Pricing_analytics_in_R.html).
 
-The material is (always) under construction!
 
 ## Let's go!
 
