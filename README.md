@@ -6,7 +6,7 @@ by Katrien Antonio, Roel Henckaerts and Roel Verbelen.
 Course materials for the *Pricing analytics in R* course in March 2020
 in Leuven and Brussels.
 
-📆 March, 2020 <br> 🕖 approx. 3h <br> 📍 IA|BE in Brussels, Data science
+📆 March, 2020 <br> 🕥 approx. 3h <br> 📍 IA|BE in Brussels, Data science
 for non-life insurance class at KU Leuven
 
 ## Goals of the workshop
@@ -37,7 +37,7 @@ The detailed schedule is subject to small changes.
 |         | 04\. - 04.    | From GAM to GLM                            | [sheets from GAM to GLM](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs_IABE.html#from-gam-to-glm) | [script](https://katrienantonio.github.io/PE-pricing-analytics/scripts) | [solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts) |
 
 You can access the lecture sheets via
-[pricing-analytics-sheets](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html).
+[pricing-analytics-sheets](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs_IABE.html).
 These are under construction and will be updated\!
 
 An older documentation of the same workshop is

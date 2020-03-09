@@ -51,7 +51,7 @@ The detailed schedule is subject to small changes.
 |         | 03. - 03. | Model building | [sheets model building](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs_IABE.html#model-building)|[script](https://katrienantonio.github.io/PE-pricing-analytics/scripts)|[solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts)|
 |         | 04. - 04. | From GAM to GLM | [sheets from GAM to GLM](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs_IABE.html#from-gam-to-glm)|[script](https://katrienantonio.github.io/PE-pricing-analytics/scripts)|[solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts)|
 
-You can access the lecture sheets via [pricing-analytics-sheets](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html). These are under construction and will be updated!
+You can access the lecture sheets via [pricing-analytics-sheets](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs_IABE.html). These are under construction and will be updated!
 
 An older documentation of the same workshop is [here](https://katrienantonio.github.io/PE-pricing-analytics/background/2019_04_APC_Pricing_analytics_in_R.html).
 
