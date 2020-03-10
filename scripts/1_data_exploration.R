@@ -1,4 +1,4 @@
-## ----eval = FALSE-------------------------------------------------------------------
+## -----------------------------------------------------------------------------------
 # install.packages("rstudioapi")
 dir <- dirname(rstudioapi::getActiveDocumentContext()$path)
 setwd(dir)
@@ -6,12 +6,11 @@ mtpl_orig <- read.table('./data/P&Cdata.txt',
                                    header = TRUE)
 mtpl_orig <- as_tibble(mtpl_orig)
 
-
-## ---- out.width='35%'---------------------------------------------------------------
+## -----------------------------------------------------------------------------------
 mtpl_orig %>% slice(1:3) %>% select(-LONG, -LAT) 
 
 
-## ----prepare-mtpl, echo = F---------------------------------------------------------
+## ----prepare-mtpl-------------------------------------------------------------------
 mtpl <- mtpl_orig %>%
   # rename all columns 
   rename_all(function(.name) {
@@ -37,16 +36,15 @@ var
 ## -----------------------------------------------------------------------------------
 dim(mtpl)
 
-
-## ---- echo = F----------------------------------------------------------------------
+## -----------------------------------------------------------------------------------
 mtpl %>% summarize(emp_freq = sum(nclaims) / sum(expo)) 
 
-## ---- echo = F----------------------------------------------------------------------
+## -----------------------------------------------------------------------------------
 mtpl %>% 
   group_by(sex) %>% 
   summarize(emp_freq = sum(nclaims) / sum(expo))
 
-## ---- echo = F, out.width = '80%'---------------------------------------------------
+## -----------------------------------------------------------------------------------
 KULbg <- "#116E8A"
 g <- ggplot(mtpl, aes(nclaims)) + theme_bw() + 
   geom_bar(col = KULbg, fill = KULbg) + 
@@ -54,8 +52,7 @@ g <- ggplot(mtpl, aes(nclaims)) + theme_bw() +
   ggtitle("MTPL - number of claims")
 g
 
-
-## ---- echo = F, out.width = '80%'---------------------------------------------------
+## -----------------------------------------------------------------------------------
 KULbg <- "#116E8A"
 g <- ggplot(mtpl, aes(nclaims)) + theme_bw() + 
   geom_bar(aes(weight = expo), col = KULbg, 
@@ -64,19 +61,18 @@ g <- ggplot(mtpl, aes(nclaims)) + theme_bw() +
   ggtitle("MTPL - number of claims")
 g
 
-## ---- echo = F, out.width = '80%'---------------------------------------------------
+## -----------------------------------------------------------------------------------
 g <- ggplot(mtpl, aes(nclaims)) + theme_bw()
 g + geom_bar(aes(y = (..count..)/sum(..count..)), 
              col = KULbg, fill = KULbg) + 
   labs(y = "Relative frequency") +
   ggtitle("MTPL - relative number of claims")
 
-## ---- echo = F, out.width = '70%'---------------------------------------------------
+## -----------------------------------------------------------------------------------
 g <- ggplot(mtpl, aes(bm)) + theme_bw()
 g + geom_histogram(binwidth = 1, col = KULbg, fill = KULbg, alpha = .5)
 
-
-## ----echo = FALSE, out.width = '70%'------------------------------------------------
+## -----------------------------------------------------------------------------------
 g <- ggplot(mtpl, aes(bm)) + theme_bw()
 g + geom_histogram(aes(y = (..count..)/sum(..count..)), binwidth = 1, col = KULbg, fill = KULbg, alpha = 0.5) + labs(y = "Relative frequency")
 
@@ -104,8 +100,7 @@ ggplot.hist <- function(DT, variable, xlab, binwidth){
     labs(x = xlab, y = ylab)
 }
 
-
-## ----echo = FALSE, fig.width = 12, fig.height = 6-----------------------------------
+## -----------------------------------------------------------------------------------
 # Targets: frequency, exposure and total severity
 plot.eda.nclaims <- ggplot.bar(mtpl, variable = mtpl$nclaims, "nclaims")
 plot.eda.exp <- ggplot.hist(mtpl, mtpl$expo, "expo", 0.05)

@@ -9,6 +9,9 @@ library(leaflet)
 library(mgcv)
 library(rstudioapi)
 library(gridExtra)
+library(mgcv)
+library(classInt)
+library(evtree)
 
 KULbg <- "#116E8A"
 
@@ -60,7 +63,6 @@ diamonds %>% group_by(cut) %>% summarize(price = mean(price), carat = mean(carat
 library(ggplot2)
 ggplot(data = mpg)
 ggplot(mpg)
-
 
 ## -----------------------------------------------------------------------------------
 library(ggplot2)
