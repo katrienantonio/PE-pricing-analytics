@@ -3,11 +3,11 @@
 
 by Katrien Antonio, Roel Henckaerts and Roel Verbelen.
 
-Course materials for the *Pricing analytics in R* course in March 2020
+Course materials for the *Pricing analytics in R* course in March 2021
 in Leuven and Brussels.
 
-📆 March, 2020 <br> 🕖 approx. 3h (in company) and 5h (for MSc students in
-class) <br> 📍 IA|BE in Brussels, Data science for non-life insurance
+📆 March, 2021 <br> 🕗 approx. 3h (in company) and 5h (for MSc students in
+class) <br> 📌 IA|BE in Brussels, Data science for non-life insurance
 class at KU Leuven
 
 ## Goals of the workshop
@@ -31,17 +31,18 @@ GLMs) with machine learning (clustering, evolutionary trees).
 
 The detailed schedule is subject to small changes.
 
-| Description                                | Lecture material                                                                                                                                 | R script                                                                                          | R solutions                                                                |
-| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| Prologue, the R universe and preliminaries | [sheets prologue](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html#prologue)               | [script](https://katrienantonio.github.io/PE-pricing-analytics/scripts/0_setup_prep_work.R)       | [solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts) |
-| Data set                                   | [sheets data set](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html#data-sets)              | [script](https://katrienantonio.github.io/PE-pricing-analytics/scripts/1_data_exploration.R)      | [solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts) |
-| Spatial data and maps                      | [sheets data set](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html#data-sets)              | [script](https://katrienantonio.github.io/PE-pricing-analytics/scripts/2_spatial_data_maps.R)     | [solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts) |
-| Model building                             | [sheets model building](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html#model-building)   | [script](https://katrienantonio.github.io/PE-pricing-analytics/scripts/3_basics_model_building.R) | [solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts) |
-| From GAM to GLM                            | [sheets from GAM to GLM](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html#from-gam-to-glm) | [script](https://katrienantonio.github.io/PE-pricing-analytics/scripts/4_clustering_binning.R)    | [solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts) |
+| Description                                | Lecture material                                                                                                                                      | R script                                                                                          | R solutions                                                                |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Prologue, the R universe and preliminaries | [sheets prologue](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs_IABE.html#prologue)               | [script](https://katrienantonio.github.io/PE-pricing-analytics/scripts/0_setup_prep_work.R)       | [solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts) |
+| Data set                                   | [sheets data set](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs_IABE.html#data-sets)              | [script](https://katrienantonio.github.io/PE-pricing-analytics/scripts/1_data_exploration.R)      | [solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts) |
+| Spatial data and maps                      | [sheets data set](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs_IABE.html#data-sets)              | [script](https://katrienantonio.github.io/PE-pricing-analytics/scripts/2_spatial_data_maps.R)     | [solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts) |
+| Model building                             | [sheets model building](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs_IABE.html#model-building)   | [script](https://katrienantonio.github.io/PE-pricing-analytics/scripts/3_basics_model_building.R) | [solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts) |
+| From GAM to GLM                            | [sheets from GAM to GLM](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs_IABE.html#from-gam-to-glm) | [script](https://katrienantonio.github.io/PE-pricing-analytics/scripts/4_clustering_binning.R)    | [solutions](https://katrienantonio.github.io/PE-pricing-analytics/scripts) |
 
-You can access the lecture sheets via
-[pricing-analytics-sheets](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs.html).
-These are under construction and will be updated\!
+You can access the lecture sheets 9 (in html) via
+[pricing-analytics-sheets](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_with_GAMs_and_GLMs_IABE.html)
+and in pdf via
+[pricing-analytics-sheets-pdf](https://katrienantonio.github.io/PE-pricing-analytics/sheets/pricing_analytics_lecture_sheets_in_pdf.pdf).
 
 An older documentation of the same workshop is
 [here](https://katrienantonio.github.io/PE-pricing-analytics/background/2019_04_APC_Pricing_analytics_in_R.html).
@@ -76,9 +77,7 @@ suppressMessages(packages <- lapply(packages, FUN = function(x) {
 
 We provide a back-up plan in case your local installation of R (and the
 necessary packages) is not working properly. Please join our project on
-RStudio Cloud via the following link
-
-<https://rstudio.cloud/spaces/55584/join?access_code=hnHmPmSNsbu8BdEBJkeMXNPtHBelpnnJBAmF9XTH>
+RStudio Cloud via the link posted on TOLEDO.
 
 After creating an account for RStudio you will be able to work with the
 scripts and data sets in the cloud.
